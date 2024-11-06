@@ -1,0 +1,5 @@
+.static{
+            height: 100px;
+            border: 1px solid black;
+            transform: perspective(10px) translateZ(-10px);
+}

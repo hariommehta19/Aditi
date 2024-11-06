@@ -1,0 +1,25 @@
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    border: 3px solid black;
+    display: flex;
+}
+
+.box{
+
+    height: 150px;
+    width:150px ;
+    margin:20px;
+    border:2px solid red;
+    background-color: aqua;
+
+    transition-property: all ;
+    /* transition-delay: 5s; */
+    transition: background-color 1s ease 3s;
+}
+
+.box:hover{
+    background-color: blueviolet;
+    transform: rotate(35deg);
+}

@@ -1,0 +1,29 @@
+.container{
+
+    height: 500px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    /* on main axis horizontal */
+    justify-content: center;
+    /* on cross axis vertical axis */
+    align-items: center;
+    gap:10px;
+    
+}
+
+.box{
+    border:2px solid red;
+    flex-shrink:  1;
+    /* overflow content shown not in width   */
+    flex-basis: 10px;
+}
+
+#box1{
+
+    order:1;
+    /* flex-grow: 1; */
+    
+}

@@ -1,0 +1,22 @@
+h1{
+    position:static;
+}
+
+.box{
+
+    width: 100px;
+    height: 100px;
+    border:1px solid black;
+    /* position:relative;
+    left:15px;
+    top:15px; */
+
+    /* position:fixed; */
+    
+}
+
+#bo{
+    width: 1000px;
+    position:sticky;
+    border:1px solid black;
+}

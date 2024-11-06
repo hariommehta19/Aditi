@@ -1,0 +1,31 @@
+.box{
+    border:1px solid black;
+    height: 200px;
+    width: 200px;
+    background-image: -moz-linear-gradient(to left, red,blue);
+    background-image: -moz-linear-gradient(to top right,red,blue);
+    position:relative;
+}
+
+.mydiv{
+    height: 200px;
+    border:1px solid black;
+    width: 200px;
+    background-image: -moz-radial-gradient(circle,red,green,black);
+}
+
+p{
+    text-shadow: 30px 30px 1px red;
+    
+}
+
+.bo{
+
+    background-color: aqua;
+    background-image: -moz-linear-gradient(red);
+    box-shadow: 10px 10px red;
+    /* transform:translate(100px,20px); */
+    /* transform:rotate(45deg); */
+    /* transform:scale(2,3); */
+    /* transform:skew(45deg); */
+}
